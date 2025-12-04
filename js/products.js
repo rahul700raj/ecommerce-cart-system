@@ -1,5 +1,6 @@
-// Product Data - Array of Objects
+// Product Data - Array of Objects (50+ Products)
 const productsData = [
+    // Electronics (15 products)
     {
         id: 1,
         name: "Wireless Bluetooth Headphones",
@@ -25,54 +26,6 @@ const productsData = [
         description: "Advanced fitness tracking and notifications"
     },
     {
-        id: 3,
-        name: "Leather Wallet",
-        category: "fashion",
-        price: 899,
-        originalPrice: 1499,
-        image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
-        rating: 4.3,
-        reviews: 123,
-        stock: 25,
-        description: "Genuine leather wallet with RFID protection"
-    },
-    {
-        id: 4,
-        name: "Running Shoes",
-        category: "sports",
-        price: 3499,
-        originalPrice: 5999,
-        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
-        rating: 4.6,
-        reviews: 789,
-        stock: 12,
-        description: "Lightweight running shoes with cushioned sole"
-    },
-    {
-        id: 5,
-        name: "Coffee Maker",
-        category: "home",
-        price: 4999,
-        originalPrice: 7999,
-        image: "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500",
-        rating: 4.4,
-        reviews: 345,
-        stock: 6,
-        description: "Automatic coffee maker with timer"
-    },
-    {
-        id: 6,
-        name: "Backpack",
-        category: "fashion",
-        price: 1999,
-        originalPrice: 2999,
-        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
-        rating: 4.7,
-        reviews: 567,
-        stock: 20,
-        description: "Water-resistant laptop backpack"
-    },
-    {
         id: 7,
         name: "Wireless Mouse",
         category: "electronics",
@@ -83,42 +36,6 @@ const productsData = [
         reviews: 234,
         stock: 30,
         description: "Ergonomic wireless mouse with precision tracking"
-    },
-    {
-        id: 8,
-        name: "Yoga Mat",
-        category: "sports",
-        price: 1299,
-        originalPrice: 1999,
-        image: "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500",
-        rating: 4.5,
-        reviews: 432,
-        stock: 18,
-        description: "Non-slip yoga mat with carrying strap"
-    },
-    {
-        id: 9,
-        name: "Table Lamp",
-        category: "home",
-        price: 1499,
-        originalPrice: 2499,
-        image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500",
-        rating: 4.3,
-        reviews: 156,
-        stock: 14,
-        description: "Modern LED table lamp with adjustable brightness"
-    },
-    {
-        id: 10,
-        name: "Sunglasses",
-        category: "fashion",
-        price: 1999,
-        originalPrice: 3499,
-        image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500",
-        rating: 4.6,
-        reviews: 289,
-        stock: 22,
-        description: "UV protection polarized sunglasses"
     },
     {
         id: 11,
@@ -133,6 +50,492 @@ const productsData = [
         description: "Waterproof Bluetooth speaker with 12-hour battery"
     },
     {
+        id: 13,
+        name: "Mechanical Keyboard",
+        category: "electronics",
+        price: 4999,
+        originalPrice: 7999,
+        image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500",
+        rating: 4.6,
+        reviews: 345,
+        stock: 12,
+        description: "RGB mechanical gaming keyboard with blue switches"
+    },
+    {
+        id: 14,
+        name: "Webcam HD 1080p",
+        category: "electronics",
+        price: 3499,
+        originalPrice: 5499,
+        image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500",
+        rating: 4.4,
+        reviews: 267,
+        stock: 18,
+        description: "Full HD webcam with auto-focus and noise reduction"
+    },
+    {
+        id: 15,
+        name: "USB-C Hub 7-in-1",
+        category: "electronics",
+        price: 1999,
+        originalPrice: 2999,
+        image: "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=500",
+        rating: 4.3,
+        reviews: 189,
+        stock: 25,
+        description: "Multi-port USB-C hub with HDMI and SD card reader"
+    },
+    {
+        id: 16,
+        name: "Power Bank 20000mAh",
+        category: "electronics",
+        price: 2299,
+        originalPrice: 3499,
+        image: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500",
+        rating: 4.5,
+        reviews: 512,
+        stock: 20,
+        description: "Fast charging power bank with dual USB ports"
+    },
+    {
+        id: 17,
+        name: "Wireless Earbuds",
+        category: "electronics",
+        price: 1999,
+        originalPrice: 3499,
+        image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500",
+        rating: 4.6,
+        reviews: 678,
+        stock: 15,
+        description: "True wireless earbuds with charging case"
+    },
+    {
+        id: 18,
+        name: "Gaming Mouse Pad",
+        category: "electronics",
+        price: 599,
+        originalPrice: 999,
+        image: "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+        rating: 4.2,
+        reviews: 234,
+        stock: 40,
+        description: "Extended RGB gaming mouse pad"
+    },
+    {
+        id: 19,
+        name: "Phone Stand Adjustable",
+        category: "electronics",
+        price: 499,
+        originalPrice: 899,
+        image: "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500",
+        rating: 4.4,
+        reviews: 156,
+        stock: 35,
+        description: "Foldable aluminum phone stand"
+    },
+    {
+        id: 20,
+        name: "LED Strip Lights 5M",
+        category: "electronics",
+        price: 1299,
+        originalPrice: 1999,
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
+        rating: 4.5,
+        reviews: 423,
+        stock: 22,
+        description: "Smart RGB LED strip with remote control"
+    },
+    {
+        id: 21,
+        name: "Laptop Cooling Pad",
+        category: "electronics",
+        price: 1499,
+        originalPrice: 2299,
+        image: "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=500",
+        rating: 4.3,
+        reviews: 198,
+        stock: 16,
+        description: "Laptop cooler with 6 fans and LED lights"
+    },
+    {
+        id: 22,
+        name: "Bluetooth Adapter",
+        category: "electronics",
+        price: 399,
+        originalPrice: 699,
+        image: "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=500",
+        rating: 4.1,
+        reviews: 145,
+        stock: 50,
+        description: "USB Bluetooth 5.0 adapter for PC"
+    },
+    {
+        id: 23,
+        name: "Cable Organizer Set",
+        category: "electronics",
+        price: 299,
+        originalPrice: 599,
+        image: "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=500",
+        rating: 4.4,
+        reviews: 267,
+        stock: 60,
+        description: "Cable management clips and ties set"
+    },
+
+    // Fashion (15 products)
+    {
+        id: 3,
+        name: "Leather Wallet",
+        category: "fashion",
+        price: 899,
+        originalPrice: 1499,
+        image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
+        rating: 4.3,
+        reviews: 123,
+        stock: 25,
+        description: "Genuine leather wallet with RFID protection"
+    },
+    {
+        id: 6,
+        name: "Backpack",
+        category: "fashion",
+        price: 1999,
+        originalPrice: 2999,
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        rating: 4.7,
+        reviews: 567,
+        stock: 20,
+        description: "Water-resistant laptop backpack"
+    },
+    {
+        id: 10,
+        name: "Sunglasses",
+        category: "fashion",
+        price: 1999,
+        originalPrice: 3499,
+        image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500",
+        rating: 4.6,
+        reviews: 289,
+        stock: 22,
+        description: "UV protection polarized sunglasses"
+    },
+    {
+        id: 24,
+        name: "Casual T-Shirt",
+        category: "fashion",
+        price: 599,
+        originalPrice: 999,
+        image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+        rating: 4.4,
+        reviews: 456,
+        stock: 50,
+        description: "Premium cotton casual t-shirt"
+    },
+    {
+        id: 25,
+        name: "Denim Jeans",
+        category: "fashion",
+        price: 1999,
+        originalPrice: 2999,
+        image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+        rating: 4.5,
+        reviews: 378,
+        stock: 30,
+        description: "Slim fit stretch denim jeans"
+    },
+    {
+        id: 26,
+        name: "Leather Belt",
+        category: "fashion",
+        price: 799,
+        originalPrice: 1299,
+        image: "https://images.unsplash.com/photo-1624222247344-550fb60583bb?w=500",
+        rating: 4.3,
+        reviews: 234,
+        stock: 40,
+        description: "Genuine leather reversible belt"
+    },
+    {
+        id: 27,
+        name: "Wrist Watch",
+        category: "fashion",
+        price: 2999,
+        originalPrice: 4999,
+        image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500",
+        rating: 4.6,
+        reviews: 345,
+        stock: 15,
+        description: "Analog quartz wrist watch"
+    },
+    {
+        id: 28,
+        name: "Baseball Cap",
+        category: "fashion",
+        price: 499,
+        originalPrice: 899,
+        image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+        rating: 4.2,
+        reviews: 189,
+        stock: 45,
+        description: "Adjustable cotton baseball cap"
+    },
+    {
+        id: 29,
+        name: "Crossbody Bag",
+        category: "fashion",
+        price: 1499,
+        originalPrice: 2499,
+        image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500",
+        rating: 4.5,
+        reviews: 267,
+        stock: 18,
+        description: "Stylish crossbody messenger bag"
+    },
+    {
+        id: 30,
+        name: "Sneakers",
+        category: "fashion",
+        price: 2499,
+        originalPrice: 3999,
+        image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+        rating: 4.7,
+        reviews: 512,
+        stock: 25,
+        description: "Comfortable casual sneakers"
+    },
+    {
+        id: 31,
+        name: "Hoodie",
+        category: "fashion",
+        price: 1499,
+        originalPrice: 2299,
+        image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500",
+        rating: 4.6,
+        reviews: 423,
+        stock: 35,
+        description: "Warm fleece pullover hoodie"
+    },
+    {
+        id: 32,
+        name: "Scarf",
+        category: "fashion",
+        price: 699,
+        originalPrice: 1199,
+        image: "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=500",
+        rating: 4.3,
+        reviews: 156,
+        stock: 28,
+        description: "Soft wool blend winter scarf"
+    },
+    {
+        id: 33,
+        name: "Formal Shirt",
+        category: "fashion",
+        price: 1299,
+        originalPrice: 1999,
+        image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500",
+        rating: 4.4,
+        reviews: 298,
+        stock: 32,
+        description: "Slim fit formal cotton shirt"
+    },
+    {
+        id: 34,
+        name: "Socks Pack (5 Pairs)",
+        category: "fashion",
+        price: 399,
+        originalPrice: 699,
+        image: "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=500",
+        rating: 4.2,
+        reviews: 445,
+        stock: 60,
+        description: "Cotton ankle socks multipack"
+    },
+    {
+        id: 35,
+        name: "Tie Set",
+        category: "fashion",
+        price: 899,
+        originalPrice: 1499,
+        image: "https://images.unsplash.com/photo-1589756823695-278bc8356c60?w=500",
+        rating: 4.3,
+        reviews: 178,
+        stock: 22,
+        description: "Silk tie with pocket square set"
+    },
+
+    // Home & Living (12 products)
+    {
+        id: 5,
+        name: "Coffee Maker",
+        category: "home",
+        price: 4999,
+        originalPrice: 7999,
+        image: "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500",
+        rating: 4.4,
+        reviews: 345,
+        stock: 6,
+        description: "Automatic coffee maker with timer"
+    },
+    {
+        id: 9,
+        name: "Table Lamp",
+        category: "home",
+        price: 1499,
+        originalPrice: 2499,
+        image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500",
+        rating: 4.3,
+        reviews: 156,
+        stock: 14,
+        description: "Modern LED table lamp with adjustable brightness"
+    },
+    {
+        id: 36,
+        name: "Wall Clock",
+        category: "home",
+        price: 899,
+        originalPrice: 1499,
+        image: "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=500",
+        rating: 4.4,
+        reviews: 234,
+        stock: 20,
+        description: "Silent wall clock with modern design"
+    },
+    {
+        id: 37,
+        name: "Cushion Covers Set",
+        category: "home",
+        price: 799,
+        originalPrice: 1299,
+        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500",
+        rating: 4.2,
+        reviews: 189,
+        stock: 35,
+        description: "Decorative cushion covers pack of 4"
+    },
+    {
+        id: 38,
+        name: "Bedsheet Set",
+        category: "home",
+        price: 1999,
+        originalPrice: 2999,
+        image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500",
+        rating: 4.5,
+        reviews: 312,
+        stock: 18,
+        description: "Cotton double bedsheet with pillow covers"
+    },
+    {
+        id: 39,
+        name: "Curtains",
+        category: "home",
+        price: 1499,
+        originalPrice: 2299,
+        image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500",
+        rating: 4.3,
+        reviews: 167,
+        stock: 12,
+        description: "Blackout curtains for bedroom"
+    },
+    {
+        id: 40,
+        name: "Storage Basket",
+        category: "home",
+        price: 599,
+        originalPrice: 999,
+        image: "https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?w=500",
+        rating: 4.4,
+        reviews: 223,
+        stock: 28,
+        description: "Woven storage basket with handles"
+    },
+    {
+        id: 41,
+        name: "Photo Frames Set",
+        category: "home",
+        price: 899,
+        originalPrice: 1499,
+        image: "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=500",
+        rating: 4.2,
+        reviews: 145,
+        stock: 25,
+        description: "Wooden photo frames set of 5"
+    },
+    {
+        id: 42,
+        name: "Aroma Diffuser",
+        category: "home",
+        price: 1299,
+        originalPrice: 1999,
+        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500",
+        rating: 4.6,
+        reviews: 378,
+        stock: 15,
+        description: "Ultrasonic aroma diffuser with LED lights"
+    },
+    {
+        id: 43,
+        name: "Trash Can",
+        category: "home",
+        price: 799,
+        originalPrice: 1299,
+        image: "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=500",
+        rating: 4.1,
+        reviews: 198,
+        stock: 22,
+        description: "Stainless steel pedal trash can"
+    },
+    {
+        id: 44,
+        name: "Doormat",
+        category: "home",
+        price: 499,
+        originalPrice: 899,
+        image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=500",
+        rating: 4.3,
+        reviews: 267,
+        stock: 40,
+        description: "Anti-slip entrance doormat"
+    },
+    {
+        id: 45,
+        name: "Candle Set",
+        category: "home",
+        price: 699,
+        originalPrice: 1199,
+        image: "https://images.unsplash.com/photo-1602874801006-e24b3e2a4e8d?w=500",
+        rating: 4.5,
+        reviews: 289,
+        stock: 30,
+        description: "Scented candles gift set"
+    },
+
+    // Sports & Fitness (10 products)
+    {
+        id: 4,
+        name: "Running Shoes",
+        category: "sports",
+        price: 3499,
+        originalPrice: 5999,
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+        rating: 4.6,
+        reviews: 789,
+        stock: 12,
+        description: "Lightweight running shoes with cushioned sole"
+    },
+    {
+        id: 8,
+        name: "Yoga Mat",
+        category: "sports",
+        price: 1299,
+        originalPrice: 1999,
+        image: "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500",
+        rating: 4.5,
+        reviews: 432,
+        stock: 18,
+        description: "Non-slip yoga mat with carrying strap"
+    },
+    {
         id: 12,
         name: "Dumbbell Set",
         category: "sports",
@@ -143,6 +546,90 @@ const productsData = [
         reviews: 543,
         stock: 7,
         description: "Adjustable dumbbell set for home workout"
+    },
+    {
+        id: 46,
+        name: "Resistance Bands",
+        category: "sports",
+        price: 799,
+        originalPrice: 1299,
+        image: "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=500",
+        rating: 4.4,
+        reviews: 356,
+        stock: 25,
+        description: "Set of 5 resistance bands with different strengths"
+    },
+    {
+        id: 47,
+        name: "Jump Rope",
+        category: "sports",
+        price: 399,
+        originalPrice: 699,
+        image: "https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?w=500",
+        rating: 4.3,
+        reviews: 234,
+        stock: 35,
+        description: "Speed jump rope with counter"
+    },
+    {
+        id: 48,
+        name: "Gym Bag",
+        category: "sports",
+        price: 1499,
+        originalPrice: 2299,
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        rating: 4.5,
+        reviews: 289,
+        stock: 20,
+        description: "Spacious gym duffle bag with shoe compartment"
+    },
+    {
+        id: 49,
+        name: "Water Bottle",
+        category: "sports",
+        price: 499,
+        originalPrice: 899,
+        image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+        rating: 4.6,
+        reviews: 512,
+        stock: 50,
+        description: "Insulated stainless steel water bottle 1L"
+    },
+    {
+        id: 50,
+        name: "Foam Roller",
+        category: "sports",
+        price: 999,
+        originalPrice: 1599,
+        image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=500",
+        rating: 4.4,
+        reviews: 198,
+        stock: 15,
+        description: "High-density foam roller for muscle recovery"
+    },
+    {
+        id: 51,
+        name: "Yoga Block Set",
+        category: "sports",
+        price: 699,
+        originalPrice: 1199,
+        image: "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500",
+        rating: 4.2,
+        reviews: 167,
+        stock: 22,
+        description: "EVA foam yoga blocks pack of 2"
+    },
+    {
+        id: 52,
+        name: "Skipping Mat",
+        category: "sports",
+        price: 599,
+        originalPrice: 999,
+        image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500",
+        rating: 4.3,
+        reviews: 145,
+        stock: 28,
+        description: "Shock-absorbing exercise mat"
     }
 ];
 
@@ -152,7 +639,9 @@ const promoCodes = {
     'SAVE20': { discount: 20, type: 'percentage', description: '20% off' },
     'FLAT500': { discount: 500, type: 'fixed', description: '₹500 off' },
     'FIRST100': { discount: 100, type: 'fixed', description: '₹100 off for first order' },
-    'WELCOME': { discount: 15, type: 'percentage', description: '15% welcome discount' }
+    'WELCOME': { discount: 15, type: 'percentage', description: '15% welcome discount' },
+    'MEGA50': { discount: 50, type: 'percentage', description: '50% mega sale' },
+    'FLAT1000': { discount: 1000, type: 'fixed', description: '₹1000 off on orders above ₹5000' }
 };
 
 // Export for use in other modules
